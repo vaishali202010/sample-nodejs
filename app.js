@@ -13,10 +13,3 @@ server.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}/`);
 });
 
-// Optionally stop the server after a specific time (e.g., 10 seconds)
-setTimeout(() => {
-    server.close(() => {
-        console.log('Server closed');
-        process.exit(0); // Exit gracefully
-    });
-}, 100000); // 10000 ms = 10 seconds
