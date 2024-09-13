@@ -19,4 +19,4 @@ setTimeout(() => {
         console.log('Server closed');
         process.exit(0); // Exit gracefully
     });
-}, 10000); // 10000 ms = 10 seconds
+}, 100000); // 10000 ms = 10 seconds
